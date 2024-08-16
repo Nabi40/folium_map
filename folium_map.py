@@ -40,6 +40,6 @@ floating_sidebar = CustomElement(sidebar_html)
 mapObj.get_root().add_child(floating_sidebar)
 
 
-mapObj
+mapObj.save("index.html")
 
 
