@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map with Sidebar</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        #map-container {
+            display: flex;
+        }
+        #side-panel {
+            width: 300px;
+            background-color: #5a68d2; /* Match the blue color from the screenshot */
+            color: white;
+            padding: 20px;
+        }
+        #map {
+            flex-grow: 1;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="map-container">
+        <div id="side-panel">
+            <h2>Selected Location</h2>
+            <p>{{ location_info }}</p>
+        </div>
+        <div id="map">
+            {{ map|safe }}
+        </div>
+    </div>
+</body>
+</html>
