@@ -1,4 +1,3 @@
-#%%
 import folium
 from folium import IFrame
 from branca.element import Element, MacroElement
@@ -41,6 +40,6 @@ floating_sidebar = CustomElement(sidebar_html)
 mapObj.get_root().add_child(floating_sidebar)
 
 
-mapObj.save("map_with_sidebar.html")
+mapObj
 
-# %%
+
