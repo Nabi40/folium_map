@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-0(vhztnko+6gxxqofwr4b14s#id#wxv2p=r_un359@l02$a32h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['folium-map.onrender.com']
+ALLOWED_HOSTS = ['folium-map.onrender.com', "127.0.0.1"]
 
 
 # Application definition

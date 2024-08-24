@@ -4,7 +4,7 @@ import folium
 
 def show_map(request):
 
-    mapObj = folium.Map(location=[23.8277405,90.4155785])
+    mapObj = folium.Map(location=[23.8316896,90.4120205],zoom_start=14)
 
     map_html = mapObj._repr_html_()
 
