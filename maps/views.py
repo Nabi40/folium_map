@@ -8,4 +8,4 @@ def show_map(request):
 
     map_html = mapObj._repr_html_()
 
-    return render(request, 'maps/map.html', {'map': map_html, 'location_info': 'Nikunj 1, Joar Sahara, Dhaka, Dhaka Metropolitan, Dhaka District, Dhaka Division, 1229, Bangladesh'})
+    return render(request, 'maps/map.html', {'map': map_html, 'location_info': 'Nikunjo, Dhaka Division, 1229, Bangladesh'})
